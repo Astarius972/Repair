@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --brown-dark:   #4e342e;
+  --brown-mid:    #795548;
+  --brown-light:  #a18072;
+  --cream:        #f5f0eb;
+  --cream-dark:   #ede4da;
+  --text-dark:    #2c1810;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-dark);
+  background: #fff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+@layer utilities {
+  .font-playfair { font-family: 'Playfair Display', serif; }
+  .font-lato     { font-family: 'Lato', sans-serif; }
+}
