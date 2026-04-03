@@ -22,8 +22,8 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { label: "About Artisan & Oak", href: "#" },
-                { label: "Contact: (555) 012-3456", href: "#contact" },
-                { label: "Email: craft@artisanoak.com", href: "#" },
+                { label: "Contact: (+976) 89289191", href: "#contact" },
+                { label: "Email: munkhboold@gmail.com", href: "#" },
                 { label: "View Portfolio", href: "#gallery" },
               ].map((l) => (
                 <li key={l.label}>
@@ -47,7 +47,7 @@ export default function Footer() {
               {["facebook", "instagram", "pinterest"].map((s) => (
                 <a
                   key={s}
-                  href="#"
+                  href="https://www.facebook.com/munkhbool"
                   className="w-9 h-9 rounded-full flex items-center justify-center border border-stone-600 text-stone-400 hover:border-stone-300 hover:text-white transition-colors"
                 >
                   <svg
@@ -100,7 +100,7 @@ export default function Footer() {
 
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-lato text-stone-500 text-xs">
-            © 2024 Artisan &amp; Oak. Masterfully Restored.
+            © 2026 Artisan &amp; Oak.
           </p>
           <p className="font-lato text-stone-600 text-xs">
             Улаанбаатар хот, Монгол улс
